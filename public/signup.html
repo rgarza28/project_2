@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Passport Authentication</title>
+    <title>Travel Packer</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -17,27 +17,39 @@
         <div class="navbar-header"></div>
       </div>
     </nav>
+
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
           <h2>Travel Packer</h2>
           <form class="signup">
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
+              <label for="exampleInputEmail1">What is your destination?</label>
               <input
-                type="email"
+                type="text"
                 class="form-control"
                 id="email-input"
-                placeholder="Email"
+                placeholder="Location"
               />
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
+              <label for="exampleInputEmail1"
+                >How long will you be traveling/staying?</label
+              >
               <input
-                type="password"
+                type="text"
                 class="form-control"
-                id="password-input"
-                placeholder="Password"
+                id="email-input"
+                placeholder="Number of Days"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">How are you traveling?</label>
+              <input
+                type="text"
+                class="form-control"
+                id="email-input"
+                placeholder="Select Option"
               />
             </div>
             <div
@@ -52,7 +64,9 @@
               ></span>
               <span class="sr-only">Error:</span> <span class="msg"></span>
             </div>
-            <button type="submit" class="btn btn-default">Sign Up</button>
+            <button type="submit" class="btn btn-default">
+              Generate Travel List
+            </button>
           </form>
           <br />
           <p>Or log in <a href="/login">here</a></p>

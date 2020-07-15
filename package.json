@@ -1,7 +1,7 @@
 {
-  "name": "1-Passport-Example",
+  "name": "1-passport-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project 2 Starter",
   "main": "server.js",
   "scripts": {
     "test": "npm run lint",
@@ -11,7 +11,7 @@
     "watch": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Susie Otto with Team Wizard, Robert Garza and Erick Adams",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "2.4.3",
@@ -20,7 +20,7 @@
     "mysql2": "^1.6.5",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
-    "sequelize": "^5.8.6"
+    "sequelize": "^5.22.3"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -29,7 +29,11 @@
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.2",
-    "mocha": "^5.2.0",
+    "mocha": "^8.0.1",
     "prettier": "^1.13.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/susieotto"
   }
 }

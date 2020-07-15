@@ -2,3 +2,13 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
+
+.bgimage {
+ background-image: url("../assets/fashion-art-camera-office-57750.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.maincontainers {
+	background-color: #eeeeee;
+}

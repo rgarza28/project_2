@@ -4,11 +4,15 @@ form.login {
 }
 
 .bgimage {
- background-image: url("../assets/fashion-art-camera-office-57750.jpg");
- background-size: cover;
- background-repeat: no-repeat;
+  background-image: url("../assets/fashion-art-camera-office-57750.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .maincontainers {
-	background-color: #eeeeee;
+  background-color: #eeeeee;
+}
+
+.list {
+  font-size: 20px;
 }

@@ -31,79 +31,82 @@
       </div>
     </nav>
     <div class="container">
-      <div class="row" style="background-color: rgba(237, 237, 237, 0.8)">
-        <div class="col-md-6 col-md-offset-3">
-          <div>
-            <p align="center"><img src="assets/logo.png" /></p>
+      <form method="post">
+        <div class="row" style="background-color: rgba(237, 237, 237, 0.8)">
+          <div class="col-md-6 col-md-offset-3">
+            <div>
+              <p align="center"><img src="assets/logo.png" /></p>
+            </div>
+
+            <h1 class="business">
+              Let's find out what you need to bring for your trip!
+            </h1>
+            <div id="business-questions">
+              <ol>
+                <li>
+                  &nbsp; How will you be traveling?
+                  <br />
+                  &nbsp; <input type="radio" name="transportation" />&nbsp; Car
+                  <br />
+
+                  &nbsp; <input type="radio" name="transportation" />&nbsp;
+                  Plane
+
+                  <br />
+
+                  &nbsp; <input type="radio" name="transportation" />&nbsp; Ship
+
+                  <br />
+
+                  &nbsp; <input type="radio" name="transportation" />&nbsp;
+                  Train
+                </li>
+                <br />
+
+                <li>
+                  &nbsp; Where are you going?<br />&nbsp;
+                  <input id="location" type="text" />
+                </li>
+                <br />
+                <li>
+                  &nbsp; Are you attending any formal events on your trip?
+                  <br />
+                  &nbsp; <input type="radio" name="answer" />&nbsp; Yes
+                  <br />
+                  &nbsp; <input type="radio" name="answer" />&nbsp; No
+                </li>
+                <br />
+                <li>
+                  &nbsp; How long is your trip?
+                  <select name="duration" id="duration">
+                    <option value="1 day">1 day</option>
+                    <option value="2 days">2 days</option>
+                    <option value="3 days">3 days</option>
+                    <option value="4 days">4 days</option>
+                    <option value="5 days">5 days</option>
+                    <option value="6 days">6 days</option>
+                    <option value="1 week">1 week</option>
+                    <option value="2 weeks">2 weeks</option>
+                    <option value="More than 2 weeks">More than 2 weeks</option>
+                  </select>
+                </li>
+              </ol>
+            </div>
+            <div>
+              <a
+                class="btn btn-primary btn-lg"
+                id="results-2"
+                href="results.html"
+                role="button"
+                >Submit</a
+              >
+            </div>
+            <br />
+            <br />
           </div>
-
-          <h1 class="business">
-            Let's find out what you need to bring for your trip!
-          </h1>
-          <div id="business-questions">
-            <ol>
-              <li>
-                &nbsp; How will you be traveling?
-                <br />
-                &nbsp; <input type="radio" name="transportation" />&nbsp; Car
-                <br />
-
-                &nbsp; <input type="radio" name="transportation" />&nbsp; Plane
-
-                <br />
-
-                &nbsp; <input type="radio" name="transportation" />&nbsp; Ship
-
-                <br />
-
-                &nbsp; <input type="radio" name="transportation" />&nbsp; Train
-              </li>
-              <br />
-
-              <li>
-                &nbsp; Where are you going?<br />&nbsp;
-                <input id="location" type="text" />
-              </li>
-              <br />
-              <li>
-                &nbsp; Are you attending any formal events on your trip?
-                <br />
-                &nbsp; <input type="radio" name="answer" />&nbsp; Yes
-                <br />
-                &nbsp; <input type="radio" name="answer" />&nbsp; No
-              </li>
-              <br />
-              <li>
-                &nbsp; How long is your trip?
-                <select id="duration">
-                  <option value="1 day">1 day</option>
-                  <option value="2 days">2 days</option>
-                  <option value="3 days">3 days</option>
-                  <option value="4 days">4 days</option>
-                  <option value="5 days">5 days</option>
-                  <option value="6 days">6 days</option>
-                  <option value="1 week">1 week</option>
-                  <option value="2 weeks">2 weeks</option>
-                  <option value="More than 2 weeks">More than 2 weeks</option>
-                </select>
-              </li>
-            </ol>
-          </div>
-          <div>
-            <a
-              class="btn btn-primary btn-lg"
-              id="results-2"
-              href="results.html"
-              role="button"
-              >Submit</a
-            >
-          </div>
-          <br />
-          <br />
         </div>
-      </div>
+      </form>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/members.js"></script>
   </body>
